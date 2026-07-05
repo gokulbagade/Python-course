@@ -1,0 +1,6 @@
+Chapter 1: Modules, Comments & pip
+1.Writing the first Python program
+2.Understanding modules
+3.Using pip for package management
+4.Using Python as a calculator
+5.Comments in Python
