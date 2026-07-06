@@ -1,0 +1,7 @@
+Chapter 2: Variables and Data Types
+1.Defining variables
+2.Different data types in Python
+3.Rules for choosing an identifier
+4.Operators in Python
+5.Using type() function and typecasting
+6.input() function
