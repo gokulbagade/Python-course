@@ -2,12 +2,12 @@
 
  #pip install pyjocks
 
-# import pyjokes
-
-# print(pyjokes.get_joke())
-
-
+import pyjokes
 import pyttsx3
+import time
+#print(pyjokes.get_joke())
+jock = pyjokes.get_joke()
+print(jock)
 
 def speak_offline(text: str, speed: int = 150):
     # Initialize the TTS engine
@@ -20,6 +20,6 @@ def speak_offline(text: str, speed: int = 150):
     # Queue the text and play it
     engine.say(text)
     engine.runAndWait()
-
+    
 # Example execution
-speak_offline("jay shree ram")
+speak_offline(jock)
